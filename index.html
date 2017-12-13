@@ -55,6 +55,7 @@
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
 <script type="text/javascript" src="verify.js"></script>
 <script type="text/javascript">
+    $(function(){
         //输入验证码失去焦点的时候
         $("#vfinput").blur(function () {
             //输入的验证码
@@ -76,5 +77,6 @@
               alert("成功");
             }
           });
+      })
 </script>
 
