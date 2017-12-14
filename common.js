@@ -76,7 +76,7 @@ $(function(){
         //不等，拓展：这里有忽略大小写toLowerCase()
         else if (inputCode.toLowerCase() != codeValue.toLowerCase()) {
             alert("验证码输入错误！");
-            $("#vfinput").val("")
+            $("#vfinput").val("");
             return false;
         }
         else {
