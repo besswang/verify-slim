@@ -3,7 +3,7 @@
 
 这里在修改了原verify.js，在第12行，增加了vfinput.setAttribute("data-canvas",validate)，目的，判断输入与生成验证码的等值
 
-*distpicker.js代码解析*
+distpicker.js代码解析
 <code>
     var DEFAULTS = {
         // Selects the districts automatically.
