@@ -39,6 +39,7 @@
     if (WINDOW.document) {
         $(function () {
             $('[data-toggle="' + NAMESPACE + '"]').distpicker();
+            <pre><code>
             // 像这样用绑定到dom上
             // <div data-toggle="distpicker" class="col-sm-8 distpicker">
             //     <div class="col-md-4">
@@ -51,6 +52,7 @@
             //     <select class="form-control" id="district3" data-district="---- 选择区 ----"></select>
             //     </div>
             // </div>
+            </code></pre>
         });
     }
 </code></pre>
