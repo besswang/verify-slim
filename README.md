@@ -44,12 +44,12 @@
 </code></pre>
 
 DOM结构：
-<code>
+[
     <div data-toggle="distpicker">
         <select id="province3" data-province="---- 选择省 ----"></select>
         <select id="city3" data-city="---- 选择市 ----"></select>
         <select id="district3" data-district="---- 选择区 ----"></select>
     </div>
-</code>
+]
 
 [预览](https://besswang.github.io/verify-slim/index.html)
