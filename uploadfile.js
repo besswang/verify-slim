@@ -52,7 +52,6 @@ $(function(){
         //转bese64
         run(this, function (bs_img) {
             $('#up-img').attr('src',bs_img);
-            $('textarea').val(bs_img);
             console.log(bs_img);
             showModal();
             $.ajax({
