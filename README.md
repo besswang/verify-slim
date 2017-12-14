@@ -5,7 +5,7 @@
 
 ***
 
-##### 一、distpicker.js代码解析:
+#### 一、distpicker.js代码解析:
 
 1.参数设置，第19行：
 <pre><code>
@@ -39,22 +39,17 @@
     if (WINDOW.document) {
         $(function () {
             $('[data-toggle="' + NAMESPACE + '"]').distpicker();
-            <pre><code>
-            // 像这样用绑定到dom上
-            // <div data-toggle="distpicker" class="col-sm-8 distpicker">
-            //     <div class="col-md-4">
-            //     <select class="form-control" id="province3" data-province="---- 选择省 ----"></select>
-            //     </div>
-            //     <div class="col-md-4">
-            //     <select class="form-control" id="city3" data-city="---- 选择市 ----"></select>
-            //     </div>
-            //     <div class="col-md-4">
-            //     <select class="form-control" id="district3" data-district="---- 选择区 ----"></select>
-            //     </div>
-            // </div>
-            </code></pre>
         });
     }
+</code></pre>
+
+DOM结构：
+<pre><code>
+    <div data-toggle="distpicker">
+        <select id="province3" data-province="---- 选择省 ----"></select>
+        <select id="city3" data-city="---- 选择市 ----"></select>
+        <select id="district3" data-district="---- 选择区 ----"></select>
+    </div>
 </code></pre>
 
 [预览](https://besswang.github.io/verify-slim/index.html)
