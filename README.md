@@ -5,7 +5,7 @@
 
 ***
 
-## 一、distpicker.js代码解析:
+##### 一、distpicker.js代码解析:
 
 1.参数设置，第19行：
 <pre><code>
