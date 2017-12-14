@@ -1,5 +1,5 @@
 # verify-slim
-验证码，省市区三联级
+验证码，省市区三联级,图片上传
 
 这里在修改了原verify.js，在第12行，增加了vfinput.setAttribute("data-canvas",validate)，目的，判断输入与生成验证码的等值
 
