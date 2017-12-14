@@ -51,6 +51,7 @@ $(function(){
     $("#u-btn1").change(function () {
         //转bese64
         run(this, function (bs_img) {
+            showModal();
             $('#up-img').attr('src',bs_img);
             console.log(bs_img);
             showModal();
