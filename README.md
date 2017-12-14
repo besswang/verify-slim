@@ -4,7 +4,8 @@
 这里在修改了原verify.js，在第12行，增加了vfinput.setAttribute("data-canvas",validate)，目的，判断输入与生成验证码的等值
 
 distpicker.js代码解析
-<code>
+
+<pre><code>
     var DEFAULTS = {
         // Selects the districts automatically.
         // 0 -> Disable autoselect，禁用自动选择
@@ -28,5 +29,5 @@ distpicker.js代码解析
         // Defines the initial value of district.区的初始值
         district: '--区--'
     };
-</code>
+</code></pre>
 [预览](https://besswang.github.io/verify-slim/index.html)
